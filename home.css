@@ -1,0 +1,48 @@
+
+html{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+h1{
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body{
+  margin: 0;
+}
+
+header{
+  background-color: green;
+  height: 100px;
+  background-image: url("Images/back.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+} 
+
+nav{
+  float: right;
+  margin-top: 40px;
+  margin-right: 80px;
+  font-size: x-large;
+}
+
+nav > a{
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+}
+
+header > h1{
+  color: brown;
+  line-height: 120px;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+footer{
+  background-color: black;
+  color: #FFF;
+  text-align: center;
+}

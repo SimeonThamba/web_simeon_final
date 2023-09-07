@@ -1,0 +1,65 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    height: 50px;
+} 
+
+header > h1{
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+ section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap; 
+}
+
+article{
+    background-color: aqua;
+   border: 2px solid blue;
+   flex: 100px; 
+} 
+
+section{
+    display: flex;
+}
+
+article{
+    background-color: gray;
+    border: 2px solid white;
+}
+
+article{
+    flex: 1 100px;
+}
+
+article:nth-of-type(1){
+    flex: 2 300px;
+}
+
+.grid-parent-element{
+    display: grid;
+    grid-template-columns: auto,auto;
+   
+    padding: 5px;
+}
+
+.grid-item{
+  
+    text-align:center;
+    font-size: 15px;
+    padding: 20px;
+
+}
